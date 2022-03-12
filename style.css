@@ -1,0 +1,15 @@
+#header{
+    background: url(/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    height: 732px;
+}
+.align{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 45px;
+    color: white;
+}
+.para{
+    font-size: 14px;
+    margin-bottom: 140px;
+}
