@@ -61,11 +61,10 @@
 #contact,.form-control{
     background-image: url(/assets/backgrounds/c_image.jpg);
     background-size: cover;
-    color: white;
 }
 .form-control {
-    font-size: 18px;
-    color: white; 
+    font-size: 20px;
+    color: white !important; 
     padding: 0px !important;
 
 }
