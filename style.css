@@ -27,6 +27,43 @@
 #what{
     display: flex;
     margin: 100px;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-evenly;
    
+}
+.design{
+    position: relative;
+    top: 100px;
+    right: 170px;
+}
+.development{
+    position: relative;
+    top: 100px;
+    right: 190px;
+}
+.management{
+    position: relative;
+    top: 100px;
+    right: 220px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+.portfolio .row img{
+    width: 200px;
+    padding: 10px;
+}
+#contact,.form-control{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    color: white;
+}
+.form-control .input-group{
+    padding: 0px;
+    
+}
+.socials img{
+    justify-content: center;
 }
