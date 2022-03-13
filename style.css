@@ -29,6 +29,8 @@
     margin: 100px;
     width: 100%;
     justify-content: space-evenly;
+    flex-grow: 0;
+    flex-basis: 1;
    
 }
 .design{
@@ -54,16 +56,27 @@
 .portfolio .row img{
     width: 200px;
     padding: 10px;
+    min-width: 20px;
 }
 #contact,.form-control{
     background-image: url(/assets/backgrounds/c_image.jpg);
     background-size: cover;
     color: white;
+    padding:0px !important;
 }
-.form-control .input-group{
-    padding: 0px;
-    
+::placeholder{
+    font-size: 18px;
+    color: white !important; 
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
 }
 .socials img{
+    padding: 5px;
+}
+.btn{
+    text-align: center;
     justify-content: center;
 }
