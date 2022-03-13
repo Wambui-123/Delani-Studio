@@ -62,11 +62,15 @@
     background-image: url(/assets/backgrounds/c_image.jpg);
     background-size: cover;
     color: white;
-    padding:0px !important;
+}
+.form-control {
+    font-size: 18px;
+    color: white; 
+    padding: 0px !important;
+
 }
 ::placeholder{
-    font-size: 18px;
-    color: white !important; 
+    color: white !important;
 }
 .socials{
     display: flex;
