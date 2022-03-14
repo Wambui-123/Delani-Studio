@@ -17,19 +17,27 @@ function validateEmail(email){
   
 }
 
-var name= $('#name').val();
+var user= $('#name').val(); 
   if(validateName(user)!==true){
     alert("Name must be alphabets")
   }
 
-function validateName(user){
+function validateName(name){
     let nameRegex = /^[a-zA-Z]*$/;
-    if(nameRegex.test(user)){
+    if(name.match(nameRegex)){
         return (true);
     } else {
         return (false);
     }
 }
+$('#design-logo').click(function(){
+    $('#design-logo').slideDown('1500');
+    $('#design').show();
+});
+$('#design').click(function(){
+    $('#design').slideUp();
+    $('#design-logo').slideDown('1500');
+});
 
 
     

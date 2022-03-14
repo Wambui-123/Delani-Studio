@@ -58,18 +58,38 @@
     padding: 10px;
     min-width: 20px;
 }
-#contact,.form-control{
+#contact{
     background-image: url(/assets/backgrounds/c_image.jpg);
     background-size: cover;
 }
-.form-control {
-    font-size: 20px;
-    color: white !important; 
-    padding: 0px !important;
-
+input[type="text"]{
+    background: transparent;
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
+    width: 100px;
 }
-::placeholder{
-    color: white !important;
+input[type="email"]{
+    background: transparent;
+    color: white;
+    margin-right: 60px;
+    font-size: 18px;
+}
+#textarea{
+    background: transparent;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+}
+#name::placeholder{
+    color: white;
+}
+#email::placeholder{
+    color: white;
+}
+#textarea::placeholder{
+    color: white;
 }
 .socials{
     display: flex;
@@ -82,4 +102,7 @@
 .btn{
     text-align: center;
     justify-content: center;
+}
+#design{
+    display: none;
 }
