@@ -96,6 +96,7 @@ input[type="email"]{
   opacity: 1;
   position: absolute;
   border: 5px solid white;
+  border-radius: 1px;
   text-align: left;
   font-size: 18px;
   font-style: italic;
