@@ -17,7 +17,7 @@ function validateEmail(email) {
   }
   
   $("#btn").click(function (e) {
-    e.preventDefault;
+    // e.preventDefault;
     var mail = $("#email").val().toLowerCase();
     var user = $("#name").val();
   

@@ -44,14 +44,16 @@ body{
 }
 #form{
     margin-left: 80px;
-
+    width: 1150px;
+    margin-right: 200px;   
 }
 input[type="text"] {
   background: transparent;
   color: white;
   font-size: 18px;
+  margin-right: 100px;
 }
-input[type="email"] {
+input[type="email"]{
   background: transparent;
   color: white;
   font-size: 18px;
@@ -60,8 +62,9 @@ input[type="email"] {
   background: transparent;
   color: white;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 100px;
   height: 300px;
+  margin-top: 20px;
 }
 #name::placeholder {
   color: white;
@@ -109,11 +112,10 @@ input[type="email"] {
   margin: 10px;
   flex: 1;
 }
-#form{
-  width: 1000px;
-  margin-right: 200px;
-}
 .heading{
   font-size: 20px;
+}
+#hover1,#hover2,#hover3,#hover4,#hover5,#hover6,#hover7,#hover8{
+  font-size: 25px;
 }
 
