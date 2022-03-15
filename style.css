@@ -42,17 +42,18 @@ body{
   background-image: url(/assets/backgrounds/c_image.jpg);
   background-size: cover;
 }
+#form{
+    margin-left: 80px;
+
+}
 input[type="text"] {
   background: transparent;
   color: white;
-  margin-left: 50px;
   font-size: 18px;
-  width: 100px;
 }
 input[type="email"] {
   background: transparent;
   color: white;
-  margin-right: 60px;
   font-size: 18px;
 }
 #textarea {
@@ -84,9 +85,7 @@ input[type="email"] {
   margin-left: 70px;
   margin-top: 15px;
 }
-#design,
-#develop,
-#project {
+#design,#develop,#project {
   display: none;
 }
 .row1container p {
@@ -110,3 +109,8 @@ input[type="email"] {
   margin: 10px;
   flex: 1;
 }
+#form{
+  width: 1000px;
+  margin-right: 200px;
+}
+

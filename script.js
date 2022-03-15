@@ -32,7 +32,6 @@ function validateEmail(email) {
     if(validateEmail(mail) && validateName(user)){
         alert(`${user}, we have received your message. Thank you for reaching out to us!`);
     }
-    
   });
   
   $("#design-logo").click(function () {
