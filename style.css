@@ -43,9 +43,9 @@ body{
   background-size: cover;
 }
 #form{
-  margin-left: 80px;
+  margin-left: 100px;
   width: 1150px;
-  margin-right: 200px;  
+  /* margin-right: 1000px;   */
 }
 input[type="text"] {
   background: transparent;
@@ -57,11 +57,12 @@ input[type="email"]{
   background: transparent;
   color: white;
   font-size: 18px;
+  margin-right: 200px;
 }
 #textarea {
   background: transparent;
   color: white;
-  margin-right: 50px;
+  margin-right: 100px;
   margin-left: 100px;
   height: 300px;
   margin-top: 20px;
