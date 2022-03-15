@@ -43,9 +43,9 @@ body{
   background-size: cover;
 }
 #form{
-    margin-left: 90px;
-    width: 1000px;
-    margin-right: 200px;   
+  margin-left: 80px;
+  width: 1150px;
+  margin-right: 200px;  
 }
 input[type="text"] {
   background: transparent;
