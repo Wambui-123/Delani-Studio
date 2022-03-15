@@ -35,25 +35,28 @@ function validateEmail(email) {
   });
   
   $("#design-logo").click(function () {
+    $('#design-logo').hide();
     $("#design").show();
   });
   $("#design").click(function () {
-    $("#design").slideUp();
-    $("#design-logo").slideDown("1500");
+    $("#design").toggle();
+    $('#design-logo').toggle();
   });
   $("#develop-logo").click(function () {
     $("#develop").show();
+    $('#develop-logo').hide();
   });
   $("#develop").click(function () {
-    $("#develop").slideUp();
-    $("#develop-logo").slideDown("1500");
+    $("#develop").toggle();
+    $('#develop-logo').toggle();
   });
   $("#project-logo").click(function () {
     $("#project").show();
+    $('#project-logo').hide();
   });
   $("#project").click(function () {
-    $("#project").slideUp();
-    $("#project-logo").slideDown("1500");
+    $("#project").toggle();
+    $('#project-logo').toggle();
   });
   $("#img1").hover(
     function () {
