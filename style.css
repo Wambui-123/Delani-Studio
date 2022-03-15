@@ -1,108 +1,112 @@
-#header{
-    background: url(/assets/backgrounds/h_img.jpg);
-    background-size: cover;
-    height: 732px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
 }
-.align{
-    text-align: center;
-    padding-top: 200px;
-    font-size: 45px;
-    color: white;
+#header {
+  background: url(/assets/backgrounds/h_img.jpg);
+  background-size: cover;
+  height: 732px;
 }
-.para{
-    font-size: 14px;
-    margin-bottom: 140px;
+.align {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 45px;
+  color: white;
 }
-#about{
-    text-align: center;
-    margin-top: 40px;
+.para {
+  font-size: 14px;
+  margin-bottom: 140px;
 }
-#services{
-    text-align: center;
-    background-image: url(/assets/backgrounds/s_image.jpg);
-    background-size: cover;
-    height: 425px;
-    color: white;
+#about {
+  text-align: center;
+  margin-top: 40px;
 }
-#what{
-    display: flex;
-    margin: 100px;
-    width: 100%;
-    justify-content: space-evenly;
-    flex-grow: 0;
-    flex-basis: 1;
-   
+#services {
+  text-align: center;
+  background-image: url(/assets/backgrounds/s_image.jpg);
+  background-size: cover;
+  height: 425px;
+  color: white;
 }
-.design{
-    position: relative;
-    top: 100px;
-    right: 170px;
+.row1 {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin: 0 auto;
 }
-.development{
-    position: relative;
-    top: 100px;
-    right: 190px;
+.portfolio .row1 img {
+  width: 200px;
+  padding: 0px;
 }
-.management{
-    position: relative;
-    top: 100px;
-    right: 220px;
+#contact {
+  background-image: url(/assets/backgrounds/c_image.jpg);
+  background-size: cover;
 }
-.row{
-    display: flex;
-    justify-content: center;
-
+input[type="text"] {
+  background: transparent;
+  color: white;
+  margin-left: 50px;
+  font-size: 18px;
+  width: 100px;
 }
-.portfolio .row img{
-    width: 200px;
-    padding: 10px;
-    min-width: 20px;
+input[type="email"] {
+  background: transparent;
+  color: white;
+  margin-right: 60px;
+  font-size: 18px;
 }
-#contact{
-    background-image: url(/assets/backgrounds/c_image.jpg);
-    background-size: cover;
+#textarea {
+  background: transparent;
+  color: white;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 300px;
 }
-input[type="text"]{
-    background: transparent;
-    color: white;
-    margin-left: 50px;
-    font-size: 18px;
-    width: 100px;
+#name::placeholder {
+  color: white;
 }
-input[type="email"]{
-    background: transparent;
-    color: white;
-    margin-right: 60px;
-    font-size: 18px;
+#email::placeholder {
+  color: white;
 }
-#textarea{
-    background: transparent;
-    color: white;
-    margin-right: 50px;
-    margin-left: 50px;
-    height: 300px;
+#textarea::placeholder {
+  color: white;
 }
-#name::placeholder{
-    color: white;
+.socials {
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
 }
-#email::placeholder{
-    color: white;
+.socials img {
+  padding: 5px;
 }
-#textarea::placeholder{
-    color: white;
+#btn {
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 15px;
 }
-.socials{
-    display: flex;
-    justify-content: center;
-    padding-right: 30px;
+#design,
+#develop,
+#project {
+  display: none;
 }
-.socials img{
-    padding: 5px;
+.row1container p {
+  display: none;
+  opacity: 1;
+  position: absolute;
+  border: 5px solid white;
+  text-align: left;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bolder;
+  color: white;
+  height: 144px;
+  width: 180px;
+  top: 0;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.678);
 }
-.btn{
-    text-align: center;
-    justify-content: center;
-}
-#design{
-    display: none;
+.row1container {
+  position: relative;
+  margin: 10px;
+  flex: 1;
 }
