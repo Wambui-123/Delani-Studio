@@ -6,8 +6,11 @@ This website includes information about Delani Studio, what services it offers, 
 
 ## Technologies Used 
 -HTML
+
 -CSS
+
 -JQUERY
+
 -JAVASCRIPT
 
 ## Installation/Set-up Guide
